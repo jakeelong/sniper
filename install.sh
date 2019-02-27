@@ -1,6 +1,4 @@
 #!/bin/bash
-# Install script for Sn1per
-# Crated by @xer0dayz - https://xerosecurity.com
 
 OKBLUE='\033[94m'
 OKRED='\033[91m'
@@ -8,14 +6,14 @@ OKGREEN='\033[92m'
 OKORANGE='\033[93m'
 RESET='\e[0m'
 
-echo -e "$OKRED                ____               $RESET"
-echo -e "$OKRED    _________  /  _/___  ___  _____$RESET"
-echo -e "$OKRED   / ___/ __ \ / // __ \/ _ \/ ___/$RESET"
-echo -e "$OKRED  (__  ) / / // // /_/ /  __/ /    $RESET"
-echo -e "$OKRED /____/_/ /_/___/ .___/\___/_/     $RESET"
-echo -e "$OKRED               /_/                 $RESET"
+echo -e "$OKRED  $RESET"
+echo -e "$OKRED  $RESET"
+echo -e "$OKRED  $RESET"
+echo -e "$OKRED  $RESET"
+echo -e "$OKRED  $RESET"
+echo -e "$OKRED  $RESET"
 echo -e "$RESET"
-echo -e "$OKORANGE + -- --=[https://xerosecurity.com$RESET"
+echo -e "$OKORANGE + -- --$RESET"
 echo ""
 
 INSTALL_DIR=/usr/share/sniper
@@ -23,7 +21,7 @@ LOOT_DIR=/usr/share/sniper/loot
 PLUGINS_DIR=/usr/share/sniper/plugins
 GO_DIR=~/go/bin
 
-echo -e "$OKGREEN + -- --=[This script will install sniper under $INSTALL_DIR. Are you sure you want to continue? (Hit Ctrl+C to exit)$RESET"
+echo -e "$OKGREEN + -- --=$INSTALL_DIR. Are you sure you want to continue? (Hit Ctrl+C to exit)$RESET"
 read answer
 
 mkdir -p $INSTALL_DIR 2> /dev/null
